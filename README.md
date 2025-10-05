@@ -29,6 +29,11 @@ This project allows users to log in, check balance, deposit, and withdraw money 
 git clone https://github.com/yashsingh1625/ATM.git
 cd ATM
 
+### 2️⃣ Configure MySQL
+
+Create a database named `atmdb`:
+
+```sql
 CREATE DATABASE atmdb;
 USE atmdb;
 
@@ -37,4 +42,5 @@ CREATE TABLE accounts (
   pin VARCHAR(10),
   balance DOUBLE
 );
+
 
